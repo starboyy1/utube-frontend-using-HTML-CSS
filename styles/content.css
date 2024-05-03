@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 77px;
+}
+.vedio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.utube_logo{
+    height: 20px;
+    align-items: center;
+}
+.logo{
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.search_bar{
+    height:34px;
+    flex: 0.8;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(177, 175, 175);
+    padding-left: 10px;
+    box-shadow: inset 1px 2px 3px
+    rgb(0,0,0,0.5);
+}
+.search_bar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+}
+.search_logo{
+    margin-bootom: 1px;
+    width: 60px;
+    height:36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 170, 170);
+    /* padding-right: 10px; */
+}
+.search_logo:hover{
+    background-color: rgb(243, 239, 239);
+}
+.voice_icon{
+    height: 36px;
+    /* border-width: 1px;
+    border-style: solid; */
+    border-radius: 50px;
+    /* border-color: rgb(172, 170, 170); */
+    margin-left: 10px;
+     background-color: rgb(251, 248, 248); 
+    border: none;
+}
+.upload_icon{
+    height: 24px;
+}
+.youtube_app_icon{
+    height: 24px;
+}
+.notification_icon{
+    height: 24px;
+}
+.user_picture{
+    height: 24px;
+    border-radius: 16px;
+}
+.search{
+    /* display:block; */
+    font-size: 20px;
+    /* margin-left: 150px; */
+    /* margin-top: 0px; */
+}
+.thumbnail{
+    width: 100%;              
+}
+.para_1{
+    margin-top: 0px;
+}
+.div-example{
+    display: inline-block;
+}  
+.info-grid1{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel1{
+    display: inline-block;
+    width:40px;
+    vertical-align: top;
+    /* margin-top: 5px; */
+}
+.profile1{
+    width: 100%;
+    border-radius: 70px;
+    /* vertical-align: top; */
+}
+.info-grid2{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel2{
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile2{
+    width:100%;
+    border-radius: 70px;
+}
+.para_2_1{
+    margin-top: 0px;
+    /* width: 200px;
+    display: inline-block; */
+}

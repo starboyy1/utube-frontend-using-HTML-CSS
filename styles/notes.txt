@@ -1,0 +1,82 @@
+<span>:
+In HTML, the span tag is a generic inline container element. You use this element to wrap sections of text for styling purposes or to add attributes to a section of text without creating a new line of content
+<u>:
+it underlines the specific thing in the whole paragraph.
+<strong>:
+it bolds the spcefic thing in the whole pargraph.
+__________________________________________________________________________________________________________________
+void element
+1.link
+2.img.
+3.input (for search boxes)
+_________________________________________________________________________________________________________________
+rounded corners:
+ /* border-radius: 10px; for rounded corners*/
+sqaure a image: use object fit
+_-__--properties of object fit:
+fill - This is default. The image is resized to fill the given dimension. If necessary, the image will be stretched or squished to fit
+contain - The image keeps its aspect ratio, but is resized to fit within the given dimension
+cover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit
+none - The image is not resized
+scale-down - the image is scaled down to the smallest version of none or contain
+
+________________________________________________________________________________________________________________--
+display property :
+1.block element:
+takes up the entire line 
+2:inline-block element
+only takes up as much space as needed.
+3:inline element.
+appear within a line of text.
+______________________________________________________________________________________________________________   
+
+lesson 10 nested layout __________________________________________________________________________
+vertical layout: 
+		u have to make two divs and divide data in them 
+horizontol layout: 
+		make stwo divs and chnge display property to inline-block
+
+
+____________________________________________________________________________________________________
+
+lesson 11 CSS grid
+___________________
+<div style="display:grid;
+            grid-template-columns: 100px 100px;">
+ 
+define style in main div to define grid we have to set display to grid and template to columns .
+ column-gap: use for gap between columns.
+ row-gap: use for gap between rows.
+
+________________________________________________________________________________________________________
+
+lesson 12 flex box: another way to create lay out;
+___________________
+1)to make flex u have to define this in main div 
+	style="display: flex;
+        flex-direction: row;
+2) if u want that other element take whole area u have to right this
+			 flex: 1;
+3) justify-content: use to place content in flex box:
+		justify-content: end:
+4) to vertically allign element
+	allign-items: end ;
+5)for shadow:
+box-shadow:inset 1px 2px 3px
+(0,0,0,0.05)
+so here 1 inset is for inner shadow 1px is for vertical and 2px for horizontal shadow 3px for blurring . and at the end 0.0.5 is for transparecy.
+6)flex-shrink=0;   __ dont shrink.
+7)width=0; for removing default width of flexbox.
+_________________________________________________________________________________________________________
+
+LESSON 14 POSITION.add another dimension to our page like header should be at the top if we scroll noticition number should be at the top of notification icon.
+EXAMPLE:
+ <div style="background-color: black;
+    color: white;
+    position: fixed;------ used for fixed positiob when we scroll the page.
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 50px;
+    ">HEADER</div>
+__________________
